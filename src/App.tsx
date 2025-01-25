@@ -81,8 +81,8 @@ const App = () => {
             </div>
             <nav className="hidden md:flex mt-2 flex flex-col gap-2">
               <a
-                href="/src/assets/test.pdf"
-                className="w-full border-2 border-white p-4 py-2 rounded-lg text-center"
+                href="/me.pdf"
+                className="w-full border-2 border-white p-4 py-2 rounded-lg text-center hover:text-black hover:bg-white"
               >
                 Resume
               </a>
@@ -122,10 +122,15 @@ const App = () => {
                   Menu
                 </span>
               </button>
-              <nav className={`space-y-2 ${showMenu ? "block" : "hidden"}`}>
-                <button className="w-full border-2 border-white p-4 py-2 rounded-lg">
+              <nav
+                className={`space-y-2 mt-2 ${showMenu ? "block" : "hidden"}`}
+              >
+                <a
+                  href="/me.pdf"
+                  className="hover:text-black hover:bg-white block text-center w-full border-2 border-white p-4 py-2 rounded-lg"
+                >
                   Resume
-                </button>
+                </a>
                 <NavButton
                   label="About"
                   isActive={page === "about"}
