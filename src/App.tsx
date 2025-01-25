@@ -64,7 +64,11 @@ const App = () => {
                     <span className="text-2xl">
                       <FaLinkedin />
                     </span>
-                    <a href="#" className="text-md font-bold">
+                    <a
+                      href="https://www.linkedin.com/in/nicko-balboa-5251581ba/"
+                      target="_blank"
+                      className="text-md font-bold"
+                    >
                       LinkedIn
                     </a>
                   </div>
@@ -72,7 +76,11 @@ const App = () => {
                     <span className="text-2xl">
                       <FaGithub />
                     </span>
-                    <a href="#" className="text-md font-bold">
+                    <a
+                      href="https://github.com/NBalboa"
+                      className="text-md font-bold"
+                      target="_blank"
+                    >
                       Github
                     </a>
                   </div>
