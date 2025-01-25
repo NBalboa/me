@@ -29,7 +29,11 @@ const About = () => {
       <p className="text-md text-justify">
         I am a skilled web developer with expertise in Laravel, React, and
         dynamic UI development using React, TailwindCSS and Inertia.js and I
-        have strong focus on backend development.
+        have strong focus on backend development. Seeking opportunities to
+        contribute to a professional environment through effective teamwork,
+        problem solving, and clear communication. Passionate about coding with a
+        solid foundation in programming concepts. Eager to contribute to
+        successful outcomes and further develop skills in a dynamic environment.
       </p>
       <div className="space-y-2">
         <Title label="Education" />

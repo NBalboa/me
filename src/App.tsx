@@ -110,6 +110,7 @@ const App = () => {
                 onClick={() => setPage("techstacks")}
               />
             </nav>
+
             <div
               className={`fixed  ${
                 showMenu
