@@ -12,7 +12,7 @@ const Projects = () => {
   const projects: project[] = [
     {
       project_link: "https://github.com/NBalboa/water_billing",
-      name: "Water Billing",
+      name: "Water Billing - April, 2024",
       description: `A comprehensive Water Billing System designed for Vincenzo Sagun,
             streamlining water consumption tracking, automated billing
             generation, and payment management to ensure efficient and accurate
@@ -57,7 +57,7 @@ const Projects = () => {
     },
     {
       project_link: "https://github.com/NBalboa/pagadian-careers",
-      name: "Pagadian Careers",
+      name: "Pagadian Careers - August, 2024",
       description: `A job portal application designed to connect job seekers and employers in Pagadian City and beyond. The platform provides essential features for managing 
       job postings, applications, and user profiles.`,
       tech_stacks: [
@@ -99,7 +99,7 @@ const Projects = () => {
       ],
     },
     {
-      name: "Mango Drive",
+      name: "Mango Drive - October, 2024",
       project_link: "https://github.com/NBalboa/mangoi-drive-v1",
       description: `An online restaurant shop, 
         designed to offer customers an easy and seamless food ordering experience. 
@@ -146,7 +146,7 @@ const Projects = () => {
       ],
     },
     {
-      name: "5th Avenue Grill and Restobar",
+      name: "5th Avenue Grill and Restobar - November, 2024",
       project_link: "https://github.com/NBalboa/5th-avenue",
       description: `An online restaurant platform created to provide customers with a smooth and 
         effortless food ordering experience. Allowing customers to explore the menu, 
