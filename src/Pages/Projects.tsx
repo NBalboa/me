@@ -72,8 +72,8 @@ const Projects = () => {
           isHover: false,
         },
         {
-          name: "Inertia.js",
-          icon: "Inertia.js",
+          name: "Livewire",
+          icon: "Livewire",
           isHover: false,
         },
         {
