@@ -112,7 +112,7 @@ const App = () => {
             </nav>
 
             <div
-              className={`fixed  ${
+              className={`fixed z-50  ${
                 showMenu
                   ? "bg-black w-full left-0 top-0 rounded-b-md"
                   : "left-1 top-1 bg-white text-black rounded-lg"
