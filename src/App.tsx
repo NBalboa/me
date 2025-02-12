@@ -10,7 +10,7 @@ import { GiHamburgerMenu } from "react-icons/gi";
 import NavButton from "./components/NavButton";
 
 const App = () => {
-  const [page, setPage] = useState<string>("about");
+  const [page, setPage] = useState<string>("projects");
   const [showMenu, setShowMenu] = useState<boolean>(false);
   const getPage = (page: string): JSX.Element => {
     if (page === "about") {

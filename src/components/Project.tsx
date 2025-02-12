@@ -17,8 +17,15 @@ const Project = ({ project }: ProjectProps) => {
           {project.name}
         </h2>
       </a>
-      <p className="text-justify ms-5">{project.description}</p>
-      <div></div>
+
+      <div className="text-justify ms-5">
+        <ul className="list-disc">
+          {project.descriptions.map((description, index) => (
+            <li key={index}>{description}</li>
+          ))}
+        </ul>
+      </div>
+
       <div>
         <h3 className="font-bold text-md mb-2">Technology Stacks</h3>
         <div className="flex gap-2 flex-wrap">
