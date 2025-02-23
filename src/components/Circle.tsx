@@ -1,3 +1,5 @@
+import { memo } from "react";
+
 const Circle = () => {
   return (
     <svg
@@ -217,4 +219,4 @@ l9 101 48 0 c35 0 49 4 49 14 0 17 -22 26 -62 26 -28 0 -29 2 -26 37 2 28 -1
   );
 };
 
-export default Circle;
+export default memo(Circle);

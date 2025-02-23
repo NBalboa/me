@@ -1,4 +1,4 @@
-import React from "react";
+import React, { memo } from "react";
 import Circle from "./Circle";
 
 type ContentProps = {
@@ -30,4 +30,4 @@ const Content = ({ isSide = false, children }: ContentProps) => {
   );
 };
 
-export default Content;
+export default memo(Content);

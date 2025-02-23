@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useCallback, useState } from "react";
 import ME from "./assets/images/me.jpg";
 import Content from "./components/Content";
 import Main from "./components/Main";
@@ -8,24 +8,29 @@ import Projects from "./Pages/Projects";
 import Technology from "./Pages/Techology";
 import { GiHamburgerMenu } from "react-icons/gi";
 import NavButton from "./components/NavButton";
+import SplashCursor from "./components/SplashCursor";
 
 const App = () => {
   const [page, setPage] = useState<string>("projects");
   const [showMenu, setShowMenu] = useState<boolean>(false);
-  const getPage = (page: string): JSX.Element => {
-    if (page === "about") {
-      return <About />;
-    } else if (page === "projects") {
-      return <Projects />;
-    } else if (page === "techstacks") {
-      return <Technology />;
-    } else {
-      return <About />;
-    }
-  };
+  const getPage = useCallback(
+    (page: string): JSX.Element => {
+      if (page === "about") {
+        return <About />;
+      } else if (page === "projects") {
+        return <Projects />;
+      } else if (page === "techstacks") {
+        return <Technology />;
+      } else {
+        return <About />;
+      }
+    },
+    [page]
+  );
 
   return (
     <div>
+      <SplashCursor />
       <Main>
         <Content isSide={true}>
           <div>
