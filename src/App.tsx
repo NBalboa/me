@@ -71,11 +71,11 @@ const App = () => {
       </Content>
       <Content>
         <ContentPage page={page} />
+        <div className="absolute right-0 -bottom-10">
+          <p className="text-foreground text-xs text-center">© {getCurrentYear()} Nicko Balboa</p>
+          <p className="text-foreground text-xs text-center">All rights reserved.</p>
+        </div>
       </Content>
-      <div className="absolute right-10 bottom-10">
-        <p className="text-foreground text-xs text-center">© {getCurrentYear()} Nicko Balboa</p>
-        <p className="text-foreground text-xs text-center">All rights reserved.</p>
-      </div>
     </Main>
   );
 };
