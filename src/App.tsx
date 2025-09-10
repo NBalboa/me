@@ -42,7 +42,7 @@ const App = () => {
           <HamburgerMenu isShow={showMenu} onHandleShowMenu={handleToggleHamburgerMenu}>
             <a
               href="/me/nickobalboa-resume.pdf"
-              className="hover:text-black hover:bg-white block text-center w-full border-2 border-white p-4 py-2 rounded-lg"
+              className="bg-primary text-background block text-center w-full p-4 py-2 rounded-lg"
             >
               Resume
             </a>
