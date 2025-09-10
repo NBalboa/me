@@ -67,15 +67,10 @@ const App = () => {
               onClick={() => handleChangePage({ page: "technology", isToggleMenu: true })}
             />
           </HamburgerMenu>
-          <div>
-
-          </div>
-
         </div>
       </Content>
       <Content>
         <ContentPage page={page} />
-
       </Content>
       <div className="absolute right-10 bottom-10">
         <p className="text-foreground text-xs text-center">© {getCurrentYear()} Nicko Balboa</p>
