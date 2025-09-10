@@ -45,6 +45,7 @@ const Technology = () => {
             <Item label="MySQL Workbench" />
             <Item label="XAMPP" />
             <Item label="Docker" />
+            <Item label="Jira" />
           </Items>
         </div>
         <div>
@@ -52,7 +53,6 @@ const Technology = () => {
           <Items>
             <Item label="Agile Development" />
             <Item label="Sprint Planning" />
-            <Item label="Jira" />
           </Items>
         </div>
       </div>
