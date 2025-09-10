@@ -1,13 +1,13 @@
 import Education from "../components/Education";
 import Title from "../components/Title";
-import { education } from "../types/Education";
+import { Education as EDUCATION_TYPE } from "../types/Education";
 
 const About = () => {
-  const educations: education[] = [
+  const educations: EDUCATION_TYPE[] = [
     {
       course: "Bachelor Of Science in Computer Science",
       school_name: "Western Mindanao State University",
-      isPresent: true,
+      isPresent: false,
       yearStart: 2020,
       yearEnd: 2025,
       address: "Bulatok, Pagadian City",
@@ -26,18 +26,16 @@ const About = () => {
   return (
     <div className="space-y-2">
       <Title label="Introduction" />
-      <p className="text-md text-justify">
-        I am a skilled web developer with expertise in Laravel, React, and
-        dynamic UI development using React, TailwindCSS and Inertia.js and I
-        have strong focus on backend development. Seeking opportunities to
-        contribute to a professional environment through effective teamwork,
-        problem solving, and clear communication. Passionate about coding with a
-        solid foundation in programming concepts. Eager to contribute to
-        successful outcomes and further develop skills in a dynamic environment.
+      <p className="text-md text-justify text-foreground">
+        Motivated Web Developer with experience in building and maintaining modern web applications.
+        Skilled in both front-end and back-end development, with a focus on creating scalable, reliable,
+        and user-friendly solutions. Strong problem-solving abilities, effective communication skills, and
+        a collaborative mindset. Dedicated to continuous learning and staying updated with emerging
+        technologies to deliver quality results in dynamic.
       </p>
       <div className="space-y-2">
         <Title label="Education" />
-        <div className="space-y-2 divide-y divive-gray-400">
+        <div className="space-y-2 divide-y divive-accent">
           {educations.map((education, index) => (
             <Education key={index} education={education} />
           ))}

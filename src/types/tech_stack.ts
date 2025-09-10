@@ -1,5 +1,7 @@
-export type tech_stack = {
+import { Icon } from "./icon";
+
+export type TechStack = {
   name: string;
-  icon: JSX.Element | string;
+  icon: Icon | null;
   isHover?: boolean;
 };

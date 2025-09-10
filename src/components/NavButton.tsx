@@ -10,9 +10,8 @@ const NavButton = ({
   return (
     <button
       onClick={onClick}
-      className={`w-full border-2 border-white p-4 py-2 rounded-lg ${
-        isActive ? "bg-white text-black" : "hover:bg-white hover:text-black"
-      }`}
+      className={`w-full p-4 py-2 rounded-lg text-foreground border-2 ${isActive ? "text-accent-foreground bg-accent border-none" : "hover:bg-accent hover:text-accent-foreground"
+        }`}
     >
       {label}
     </button>

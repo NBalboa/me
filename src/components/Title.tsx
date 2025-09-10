@@ -3,7 +3,7 @@ type TitleProps = {
 };
 const Title = ({ label }: TitleProps) => {
   return (
-    <h2 className="text-2xl text-gray-200 font-bold border-b-2">{label}</h2>
+    <h2 className="text-2xl text-primary font-bold border-b-2 border-accent">{label}</h2>
   );
 };
 

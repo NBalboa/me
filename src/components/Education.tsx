@@ -1,13 +1,13 @@
-import { education } from "../types/Education";
+import { Education as EDUCATION_TYPE } from "../types/Education";
 
 type EducationProps = {
-  education: education;
+  education: EDUCATION_TYPE;
 };
 
 const Education = ({ education }: EducationProps) => {
   return (
-    <div>
-      <h2 className="text-lg font-bold">{education.course}</h2>
+    <div className="text-foreground">
+      <h2 className="text-lg font-bold mt-2">{education.course}</h2>
       <h3 className="text-md font-medium">
         {education.school_name} -{" "}
         <span>

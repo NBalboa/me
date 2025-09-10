@@ -12,7 +12,7 @@ const Circle = () => {
     >
       <g
         transform="translate(0.000000,500.000000) scale(0.100000,-0.100000)"
-        fill="#ffff"
+        fill="black"
         stroke="none"
       >
         <path

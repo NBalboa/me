@@ -1,4 +1,4 @@
-export type education = {
+export type Education = {
   course: string;
   school_name: string;
   isPresent?: boolean;

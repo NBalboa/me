@@ -1,8 +1,8 @@
-import { tech_stack } from "./tech_stack";
+import { TechStack } from "./tech_stack";
 
-export type project = {
+export type Project = {
   name: string;
   descriptions: string[];
   project_link: string;
-  tech_stacks: tech_stack[];
+  tech_stacks: TechStack[];
 };
