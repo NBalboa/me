@@ -9,7 +9,7 @@ import ContentPage from "./components/ContentPage";
 import Resume from "./components/Resume";
 
 const App = () => {
-  const { handleChangePage, handleToggleHamburgerMenu, page, showMenu } = useApp();
+  const { handleChangePage, handleToggleHamburgerMenu, page, showMenu, getCurrentYear } = useApp();
 
   return (
     <Main>
@@ -67,11 +67,20 @@ const App = () => {
               onClick={() => handleChangePage({ page: "technology", isToggleMenu: true })}
             />
           </HamburgerMenu>
+          <div>
+
+          </div>
+
         </div>
       </Content>
       <Content>
         <ContentPage page={page} />
+
       </Content>
+      <div className="absolute right-10 bottom-10">
+        <p className="text-foreground text-xs text-center">© {getCurrentYear()} Nicko Balboa</p>
+        <p className="text-foreground text-xs text-center">All rights reserved.</p>
+      </div>
     </Main>
   );
 };

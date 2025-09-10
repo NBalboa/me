@@ -13,13 +13,18 @@ export const useApp = () => {
     }
   }
 
+  const getCurrentYear = (): number => {
+    return new Date().getFullYear()
+  }
+
   const handleToggleHamburgerMenu = () => setShowMenu(prev => !prev)
 
   return {
     page,
     handleChangePage,
     showMenu,
-    handleToggleHamburgerMenu
+    handleToggleHamburgerMenu,
+    getCurrentYear
   }
 }
 

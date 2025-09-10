@@ -8,9 +8,9 @@ type ContentProps = {
 
 const Content = ({ isSide = false, children }: ContentProps) => {
   return (
-    <div className={`rounded-lg col-span-1 ${isSide ? null : "md:col-span-2"}`}>
+    <div className={`rounded-lg col-span-1 ${isSide ? null : "md:col-span-2"} relative`}>
       {isSide ? (
-        <div className="bg-card border-2 border-accent p-4 rounded-lg">{children}</div>
+        <div className="fixed bg-card border-2 border-accent p-4 rounded-lg">{children}</div>
       ) : (
         <>
           <div className="bg-card border-2 border-accent rounded-lg p-4 relative">{children}</div>
