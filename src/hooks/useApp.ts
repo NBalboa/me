@@ -3,7 +3,7 @@ import { Page } from "../types/page";
 
 
 export const useApp = () => {
-  const [page, setPage] = useState<Page>("about");
+  const [page, setPage] = useState<Page>("experiences");
   const [showMenu, setShowMenu] = useState<boolean>(false);
 
   const handleChangePage = ({ page, isToggleMenu }: { page: Page, isToggleMenu?: boolean }) => {
