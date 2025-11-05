@@ -19,6 +19,7 @@ const Technology = () => {
           <h2 className="text-lg font-medium mb-2 mt-2">Frameworks/Libraries</h2>
           <Items>
             <Item label="Laravel" />
+            <Item label="NextJS" />
             <Item label="React.js" />
             <Item label="React Native" />
             <Item label="NestJS" />
