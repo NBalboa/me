@@ -36,7 +36,7 @@ user gameplay experience.
 
 ### Molave Youngs Milling Corp., Junior Software Developer
 
-### (June 2025 – December 2025)
+### (June 2025 – November 2025)
 
 ```
 * Developed and maintained full-stack applications using TypeScript, NestJS, Next.js,
