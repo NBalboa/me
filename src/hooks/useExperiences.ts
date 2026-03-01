@@ -4,10 +4,24 @@ import { Experience } from "../types/experience"
 export const useExperiences = () => {
   const experiences: Experience[] = [
     {
+      company_name: "Kooapps Philippines Corporation",
+      positon: "Programmer",
+      started: "November 2025",
+      ended: "February 2026",
+      higlights: [
+        `Learned and applied C++ fundamentals, including object-oriented programming (OOP), memory management, and problem-solving techniques.`,
+        `Developed an iOS Card Game using Objective-C, implementing game logic, scoring system, and interactive UI components.`,
+        `Built a Set Card Game on iOS using Objective-C, implementing card-matching algorithms and rule validation logic.`,
+        `Applied MVC architecture in iOS development to separate game logic, UI, and data models effectively.`,
+        `Implemented event handling, dynamic UI updates, and state management for a smooth user gameplay experience.`
+      ],
+      isPresent: false,
+    },
+    {
       company_name: "Molave Youngs Milling Corp.",
       positon: "Junior Software Developer",
       started: "June 2025",
-      ended: "December 2025",
+      ended: "November 2025",
       higlights: [
         `Developed and maintained full-stack applications using TypeScript, NestJS, Next.js,
       React.js, and Prisma ORM, ensuring scalability and performance.`,
@@ -20,7 +34,7 @@ export const useExperiences = () => {
         `Implemented state management with Redux, optimizing application performance and
       aintainability.`
       ],
-      isPresent: true
+      isPresent: false
     },
     {
       company_name: "Camp Connection",

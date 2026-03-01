@@ -13,6 +13,8 @@ const Technology = () => {
             <Item label="Javascript" />
             <Item label="PHP" />
             <Item label="Typescript" />
+            <Item label="C++" />
+            <Item label="Objective-C" />
           </Items>
         </div>
         <div>
@@ -41,6 +43,7 @@ const Technology = () => {
         <div>
           <h2 className="text-lg font-medium mb-2 mt-2">Tools & Platforms</h2>
           <Items>
+            <Item label="XCode" />
             <Item label="Visual Studio Code" />
             <Item label="Git & Github" />
             <Item label="MySQL Workbench" />
