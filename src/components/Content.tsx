@@ -17,7 +17,7 @@ const Content = ({ isSide = false, children }: ContentProps) => {
           <a href="mailto:nickojek2x@gmail.com">
             <div>
               <div className="relative group left-6 -bottom-12 flex items-center justify-center hover:bg-foreground hover:text-white bg-white text-black font-bold w-[72px] h-[72px] rounded-full translate-all ease-in duration-800">
-                <p className="inline-block py-2 text-sm z-50">Hire Me</p>
+                <p className="inline-block py-2 text-[8px] z-50 text-center">Click here to contact me</p>
                 <div className="absolute group-hover:animate-spin group-hover:animate-spin-slow">
                   <Circle />
                 </div>

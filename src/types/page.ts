@@ -1,1 +1,1 @@
-export type Page = 'about' | 'experiences' | 'projects' | 'technology'
+export type Page = 'about' | 'experiences' | 'projects' | 'skills'

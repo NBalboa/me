@@ -1,7 +1,7 @@
 import About from '../Pages/About'
 import Experiences from '../Pages/Experiences'
 import Projects from '../Pages/Projects'
-import Technology from '../Pages/Technology'
+import Skills from '../Pages/Skills'
 import { Page } from '../types/page'
 type ContentPageProps = {
   page: Page
@@ -14,8 +14,8 @@ const ContentPage = ({ page }: ContentPageProps) => {
       return <Experiences />
     case 'projects':
       return <Projects />
-    case 'technology':
-      return <Technology />
+    case 'skills':
+      return <Skills />
     default:
       return null
   }

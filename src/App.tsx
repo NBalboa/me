@@ -34,9 +34,9 @@ const App = () => {
               onClick={() => handleChangePage({ page: "projects" })}
             />
             <NavButton
-              label="Technical Skills"
-              isActive={page === "technology"}
-              onClick={() => handleChangePage({ page: "technology" })}
+              label="Skills"
+              isActive={page === "skills"}
+              onClick={() => handleChangePage({ page: "skills" })}
             />
           </Navigation>
           <HamburgerMenu isShow={showMenu} onHandleShowMenu={handleToggleHamburgerMenu}>
@@ -63,8 +63,8 @@ const App = () => {
             />
             <NavButton
               label="Technical Skills"
-              isActive={page === "technology"}
-              onClick={() => handleChangePage({ page: "technology", isToggleMenu: true })}
+              isActive={page === "skills"}
+              onClick={() => handleChangePage({ page: "skills", isToggleMenu: true })}
             />
           </HamburgerMenu>
         </div>

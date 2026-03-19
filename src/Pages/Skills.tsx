@@ -2,9 +2,20 @@ import Item from "../components/Item";
 import Items from "../components/Items";
 import Title from "../components/Title";
 
-const Technology = () => {
+const Skills = () => {
   return (
-    <div>
+    <div className="space-y-2">
+      <Title label="Core Skills" />
+      <div className="text-justify ms-5 ">
+        <ul className="list-disc space-y-2">
+          <li>Full-Stack Development</li>
+          <li>REST API Development</li>
+          <li>Frontend Development (React, Next.js, TailwindCSS)</li>
+          <li>Backend Development (Node.js, NestJS, Laravel)</li>
+          <li>State Management (Redux)</li>
+          <li>Database Design (MySQL, PostgreSQL)</li>
+        </ul>
+      </div>
       <Title label="Technical Skills" />
       <div className="space-y-2 divide-y divide-gray-400 mt-2 text-foreground">
         <div>
@@ -45,18 +56,12 @@ const Technology = () => {
           <Items>
             <Item label="XCode" />
             <Item label="Visual Studio Code" />
-            <Item label="Git & Github" />
+            <Item label="Git" />
+            <Item label="Github" />
             <Item label="MySQL Workbench" />
             <Item label="XAMPP" />
             <Item label="Docker" />
             <Item label="Jira" />
-          </Items>
-        </div>
-        <div>
-          <h2 className="text-lg font-medium mb-2">Methodologies & Practices</h2>
-          <Items>
-            <Item label="Agile Development" />
-            <Item label="Sprint Planning" />
           </Items>
         </div>
       </div>
@@ -64,4 +69,4 @@ const Technology = () => {
   );
 };
 
-export default Technology;
+export default Skills;
