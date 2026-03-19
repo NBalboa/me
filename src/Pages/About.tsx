@@ -38,8 +38,6 @@ const About = () => {
         </p>
       </div>
       <p className="text-md text-justify text-foreground">
-
-
       </p>
       <div className="space-y-2">
         <Title label="Education" />
@@ -47,6 +45,16 @@ const About = () => {
           {educations.map((education, index) => (
             <Education key={index} education={education} />
           ))}
+        </div>
+      </div>
+      <div className="space-y-2">
+        <Title label="Additional Information" />
+        <div className="text-justify ms-5 ">
+          <ul className="list-disc space-y-2">
+            <li>Strong problem-solving and analytical skills</li>
+            <li>Effective communication and teamwork in agile environments</li>
+            <li>Passionate about continuous learning and modern technologies</li>
+          </ul>
         </div>
       </div>
     </div>

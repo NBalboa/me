@@ -17,11 +17,12 @@ const ExperienceCompanyDetail = ({
   return (
     <div className="space-y-2">
       <h2 className="flex gap-2 items-center text-xl font-bold ">
-        {company_name}
+        {position}
       </h2>
       <div>
         <h2 className="text-xl font-medium">
-          {position}
+
+          {company_name}
         </h2>
         <h3 className="flex gap-2 items-center text-md italic">
           {started} - {isPresent ? "Present" : ended}

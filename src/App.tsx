@@ -62,7 +62,7 @@ const App = () => {
               onClick={() => handleChangePage({ page: "projects", isToggleMenu: true })}
             />
             <NavButton
-              label="Technical Skills"
+              label="Skills"
               isActive={page === "skills"}
               onClick={() => handleChangePage({ page: "skills", isToggleMenu: true })}
             />
