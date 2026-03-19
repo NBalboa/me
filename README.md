@@ -1,123 +1,101 @@
 # Nicko Balboa
 
-```
-Pagadian City, Philippines, 7016
-+63 962 492 2544 nickojek2x@gmail.com
-```
+Pasig City, Philippines  
++63 962 492 2544 | nickojek2x@gmail.com  
+GitHub: https://github.com/NBalboa  
+LinkedIn: https://www.linkedin.com/in/nicko-balboa-5251581ba/  
+Portfolio: https://nbalboa.github.io/me/
 
-Motivated Web Developer with experience in building and maintaining modern web applications.
-Skilled in both front-end and back-end development, with a focus on creating scalable, reliable,
-and user-friendly solutions. Strong problem-solving abilities, effective communication skills, and
-a collaborative mindset. Dedicated to continuous learning and staying updated with emerging
-technologies to deliver quality results in dynamic.
+---
 
-## Experience
+## SUMMARY
 
-### Kooapps Philippines Corporation , Junior Software Developer
+Full-Stack Web Developer with hands-on experience building scalable web and mobile applications using TypeScript, NestJS, React, and React Native.  
+Proven ability to develop RESTful APIs, optimize system performance, and deliver user-focused solutions in agile environments.  
+Skilled in both frontend and backend development with a strong focus on clean architecture, maintainability, and real-world problem solving.
 
-### (November 2025 – February 2026 )
+---
 
-```
-* Learn and applied C++ fundamentals, including object-oriented programming (OOP),
-memory management, and problem solving techniques.
+## CORE SKILLS
 
-* Developed an iOS Card Game using Objective-C implementing game logic, scoring
-system, and interactive UI Components.
+-   Full-Stack Development
+-   REST API Development
+-   Frontend Development (React, Next.js, TailwindCSS)
+-   Backend Development (Node.js, NestJS, Laravel)
+-   State Management (Redux)
+-   Database Design (MySQL, PostgreSQL)
+-   Mobile Development (React Native)
+-   Agile Development & Scrum
 
-* Built a Set Card Game in iOS using Objective-C, implementing card-matching algorithms
-and rule validation logic.
+---
 
-* Applied MVC architecture in iOS development to separate game logic, UI and data
-models effectively.
+## EXPERIENCE
 
-* Implemented event handling, dynamic UI updates, and state management for a smooth
-user gameplay experience.
-```
+### Junior Software Developer
 
-### Molave Youngs Milling Corp., Junior Software Developer
+Molave Youngs Milling Corp.  
+June 2025 – November 2025
 
-### (June 2025 – November 2025)
+-   Developed and maintained scalable full-stack applications using TypeScript, NestJS, Next.js, and React, improving system performance and maintainability
+-   Designed and integrated RESTful APIs with Swagger, enhancing API documentation and team collaboration
+-   Contributed to a React Native mobile application, improving accessibility and user engagement
+-   Implemented Redux state management, reducing UI inconsistencies and improving application responsiveness
+-   Collaborated in Agile sprints using Jira, ensuring timely delivery of features and bug fixes
 
-```
-* Developed and maintained full-stack applications using TypeScript, NestJS, Next.js,
-React.js, and Prisma ORM, ensuring scalability and performance.
+### Front-End Developer (Part-time)
 
-* Built and integrated RESTful APIs with Swagger, improving system documentation and
-cross-team collaboration.
+Camp Connection  
+February 2025 – August 2025
 
-* Contributed to mobile app development with React Native, enhancing user accessibility
-and experience.
+-   Developed responsive web applications using React and TailwindCSS, improving user experience across multiple devices
+-   Integrated REST APIs to deliver dynamic and real-time content
+-   Collaborated with designers and backend developers to build scalable and maintainable features
+-   Resolved production issues, improving application stability and reducing downtime
+-   Participated in agile workflows, including sprint planning and task management
 
-* Applied Agile methodologies with Sprint Planning and Jira, collaborating with cross-
-functional teams to deliver projects on time.
+### Programmer
 
-* Implemented state management with Redux, optimizing application performance and
-maintainability.
-```
+Kooapps Philippines Corporation  
+November 2025 – February 2026
 
-### Camp Connection, Front-End Developer
+-   Developed iOS card games using Objective-C, implementing game logic, scoring systems, and interactive UI components
+-   Built a card-matching game with rule validation and algorithm-based logic
+-   Applied MVC architecture to separate application layers and improve maintainability
+-   Implemented event handling and dynamic UI updates for smooth gameplay experience
+-   Strengthened knowledge in object-oriented programming, algorithms, and performance optimization
 
-### (February 2025 – August 2025)
+---
 
-```
-* Developed and maintained modern, responsive web applications using React,
-TailwindCSS, and JavaScript.
-
-* Wrote scalable, reusable, and well-documented code, ensuring maintainability and
-collaboration.
-
-* Integrated REST APIs to enhance application interactivity and real-time content delivery.
-
-* Collaborated with designers and back-end developers to define requirements and
-implement robust features.
-
-* Participated in agile development cycles , sprint planning, and task management.
-
-* Resolved technical issues in production environments , ensuring reliability and smooth
-user experiences.
-```
-
-## Technical Skills
+## TECHNICAL SKILLS
 
 ### Programming Languages
 
-```
 JavaScript, TypeScript, PHP, C++, Objective-C
-```
 
 ### Frameworks & Libraries
 
-```
-Laravel, React.js, React Native,
-NestJS, Node.js TailwindCSS, Bootstrap,
-Redux.js, Prisma ORM, Swagger API
-```
+React.js, Next.js, React Native, NestJS, Node.js, Laravel, TailwindCSS, Bootstrap, Redux
 
 ### Databases
 
-```
 MySQL, PostgreSQL
-```
 
 ### Tools & Platforms
 
-```
-Git & GitHub, Visual Studio Code,
-MySQL Workbench, XAMPP
-```
+Git, GitHub, Visual Studio Code, MySQL Workbench, XAMPP, Xcode
 
-### Methodologies & Practices
+---
 
-```
-Agile Development, Sprint Planning, Jira
-```
+## EDUCATION
 
-## Socials
+Bachelor of Science in Computer Science  
+Western Mindanao State University  
+2020 – 2025
 
-**Facebook** – https://www.facebook.com/ni.c.ko.
+---
 
-**Github** – https://github.com/NBalboa
+## ADDITIONAL INFORMATION
 
-**LinkedIn** – https://www.linkedin.com/in/nicko-balboa-5251581ba/
-
-**Portfolio** – https://nbalboa.github.io/me/
+-   Strong problem-solving and analytical skills
+-   Effective communication and teamwork in agile environments
+-   Passionate about continuous learning and modern technologies
