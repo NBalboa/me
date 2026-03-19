@@ -25,13 +25,21 @@ const About = () => {
 
   return (
     <div className="space-y-2">
-      <Title label="Introduction" />
+      <Title label="Summary" />
+      <div className="space-y-2">
+        <p className="text-md text-justify text-foreground">
+          Full-Stack Web Developer with hands-on experience building scalable web and mobile applications using TypeScript, NestJS, React, and React Native
+        </p>
+        <p>
+          Proven ability to develop RESTful APIs, optimize system performance, and deliver user-focused solutions in agile environments.
+        </p>
+        <p>
+          Skilled in both frontend and backend development with a strong focus on clean architecture, maintainability, and real-world problem solving.
+        </p>
+      </div>
       <p className="text-md text-justify text-foreground">
-        Motivated Web Developer with experience in building and maintaining modern web applications.
-        Skilled in both front-end and back-end development, with a focus on creating scalable, reliable,
-        and user-friendly solutions. Strong problem-solving abilities, effective communication skills, and
-        a collaborative mindset. Dedicated to continuous learning and staying updated with emerging
-        technologies to deliver quality results in dynamic.
+
+
       </p>
       <div className="space-y-2">
         <Title label="Education" />
