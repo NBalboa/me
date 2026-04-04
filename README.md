@@ -1,6 +1,6 @@
 # Nicko Balboa
 
-Pasig City, Philippines  
+Pasay City, Philippines, 1300  
 +63 962 492 2544 | nickojek2x@gmail.com  
 GitHub: https://github.com/NBalboa  
 LinkedIn: https://www.linkedin.com/in/nicko-balboa-5251581ba/  
